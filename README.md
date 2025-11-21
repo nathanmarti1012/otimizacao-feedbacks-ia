@@ -15,7 +15,7 @@ A solução foi desenvolvida em Python utilizando a API do **Google Gemini 2.5-f
 ### 1. Descoberta de Padrões (Fase 1)
 Utilizei técnicas de *Prompt Engineering* (Few-Shot Learning) em uma amostra pequena para que a IA identificasse autonomamente as 5 categorias principais do negócio.
 
-### 2. Engenharia de Batching (Fase 2 - O Pulo do Gato 🐱)
+### 2. Engenharia de Batching (Fase 2)
 A API gratuita possui um *Rate Limit* (limite de requisições). Processar linha por linha (`row-by-row`) gerava erro `429 Resource Exhausted`.
 
 **Solução Implementada:**
